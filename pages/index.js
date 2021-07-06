@@ -6,13 +6,35 @@ import RoundArt from '../src/components/RoundArt'
 import GridArt from '../src/components/GridArt'
 export default function Home() {
   return (
-   <div className="page" >
-     <TopBar/>
-     <HeadLine/>
-     <Footer />
-     <RoundArt/>
-     <GridArt />
+    <div className="page">
+      <Head>
+        <title>Movr</title>
+        <link
+          rel="preload"
+          href="/fonts/Konnect-Regular.otf"
+          as="font"
+          crossOrigin=""
+        />
 
-   </div>
+        <link
+          rel="preload"
+          href="/fonts/Konnect-Medium.otf"
+          as="font"
+          crossOrigin=""
+        />
+
+        <link
+          rel="preload"
+          href="/fonts/Konnect-Bold.otf"
+          as="font"
+          crossOrigin=""
+        />
+      </Head>
+      <TopBar />
+      <HeadLine />
+      <Footer />
+      <RoundArt />
+      <GridArt />
+    </div>
   )
 }
