@@ -7,8 +7,8 @@ export default function HeadLine() {
         </div>
 
         <div className="social-section mt-2 md:mt-4" >
-            <Button text="Contact us" />
-            <Button text="Follow us on Twitter" outline={true} />
+            <Button  onClick={()=> window.open('mailto:contact@movr.network')} text="Contact us" />
+            <Button onClick={()=> window.open('https://twitter.com/movrnetwork')} text="Follow us on Twitter" outline={true} />
         </div>
     </div>
   )
