@@ -123,7 +123,7 @@ export default function ClipArt() {
       <div className="clip-art rotating" style={{ top: '70vh',right:'-6px'  }}>
         <SmallCloud />
       </div>
-      <div className="clip-art floating" style={{ top: '10vh',left:'20%'  }}>
+      <div className="clip-art floating" style={{ top: '20vh',left:'25%'  }}>
         <Cloud />
       </div>
    

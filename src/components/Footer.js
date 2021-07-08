@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="footer-section-1 z-20 flex flex-row ">
         <div className="flex items-center justify-items-center">
           <img
-            className="w-5 h-5 mx-2 justify-self-center"
+            className="w-5 font-medium h-5 mx-2 justify-self-center"
             src="./time_icon.svg"
           />
         </div>
