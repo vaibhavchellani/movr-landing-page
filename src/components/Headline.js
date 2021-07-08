@@ -6,7 +6,7 @@ export default function HeadLine() {
         A cross-L2 communication protocol for a multi-L2 future.
         </div>
 
-        <div className="social-section mt-2" >
+        <div className="social-section mt-4" >
             <Button text="Contact us" />
             <Button text="Follow us on Twitter" outline={true} />
         </div>
