@@ -6,7 +6,7 @@ export default function TopBar() {
             <img className="top-bar-logo-image"  src="./logo.png" /> 
         </div>
         <div className="top-bar-button" >
-        <Button text="Submit Your Questions" />
+        {/* <Button text="Submit Your Questions" /> */}
         </div>
     </div>
   )

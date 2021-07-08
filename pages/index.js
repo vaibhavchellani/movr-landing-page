@@ -4,6 +4,7 @@ import HeadLine from '../src/components/Headline'
 import Footer from '../src/components/Footer'
 import RoundArt from '../src/components/RoundArt'
 import GridArt from '../src/components/GridArt'
+import ClipArt from '../src/components/ClipArt'
 export default function Home() {
   return (
     <div className="page">
@@ -35,6 +36,7 @@ export default function Home() {
       <Footer />
       <RoundArt />
       <GridArt />
+      <ClipArt/>
     </div>
   )
 }
