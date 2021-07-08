@@ -15,28 +15,29 @@
   font-weight: 600;
 }
 
-html,
 body {
   font-family: 'Konnect' !important;
+  margin:0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }
-body {
-  position: relative;
+.zerome {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 html {
   background: linear-gradient(180deg, #012f24 0%, #025748 100%);
-}
-.page {
-  width: 100%;
-  min-height: 100vh;
-  position: relative;
   overflow: hidden;
 }
-
 .btn {
   background: #d3f763;
   box-shadow: 0px 33px 71px rgba(2, 39, 32, 0.25);
   border-radius: 8px;
-  width: 210px;
+  width: 220px;
   text-align: center;
   cursor: pointer;
   padding: 1rem 2rem;
@@ -51,7 +52,7 @@ html {
 .top-bar-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 3rem 4rem;
+  margin: 3rem 4rem;
 }
 .top-bar-logo {
   justify-self: flex-start;
@@ -84,7 +85,7 @@ html {
   font-size: 18px;
   color: white;
   font-weight: 400px;
-  width: 210px;
+  width: 220px;
   font-weight: 500;
   padding: 1rem 1.2rem;
 }
@@ -166,11 +167,11 @@ html {
   background: linear-gradient(
     180deg,
     #002e24 0%,
-    rgba(5, 112, 88, 0.46) 35.92%
+    rgba(5, 112, 88,1) 35.92%
   );
 }
 .round-art {
-  bottom: -80vw;
+  bottom: calc(-100vw + 200px);
 }
 
 @media only screen and (max-width: 712px) {
@@ -200,7 +201,7 @@ html {
     padding: 0.5rem 0.6rem;
   }
   .round-art {
-    bottom: -60vw;
+    bottom: calc(-100vw + 120px);
   }
   .footer-section-3 {
     /* font-family: Konnect; */
@@ -223,7 +224,6 @@ html {
     max-width: 90%;
   }
   .top-bar-grid {
-    padding: 3rem 2rem;
+    margin: 3rem 2rem;
   }
-  
 }

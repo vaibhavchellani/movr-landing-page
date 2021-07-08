@@ -7,7 +7,7 @@ import GridArt from '../src/components/GridArt'
 import ClipArt from '../src/components/ClipArt'
 export default function Home() {
   return (
-    <div className="page">
+    <>
       <Head>
         <title>Movr</title>
         <link
@@ -16,6 +16,7 @@ export default function Home() {
           as="font"
           crossOrigin=""
         />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
         <link
           rel="preload"
@@ -37,6 +38,6 @@ export default function Home() {
       <RoundArt />
       <GridArt />
       <ClipArt/>
-    </div>
+    </>
   )
 }

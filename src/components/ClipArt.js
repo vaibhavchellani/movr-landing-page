@@ -83,7 +83,7 @@ function ZigZag() {
 export default function ClipArt() {
   return (
     <div
-      className="absolute z-0 flex  top-0 bg-transparent  h-screen w-screen "
+      className="absolute overflow-hidden z-0 flex  top-0 left-0 right-0 bg-transparent  h-screen w-screen "
       style={{ zIndex: 1 }}
     >
       <div className="clip-art rotating" style={{ top: '40vh' }}>
