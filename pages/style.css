@@ -43,6 +43,7 @@ html {
   padding: 1rem 2rem;
   font-weight: 500;
   font-size: 18px;
+  margin: 1rem 1rem;
 }
 .center-child {
   display: flex;
@@ -88,12 +89,12 @@ html {
   width: 220px;
   font-weight: 500;
   padding: 1rem 1.2rem;
+  margin: 1rem 1rem;
 }
 
 .social-section {
   display: flex;
   flex-direction: row;
-  gap: 2rem;
 }
 .footer {
   color: white;
@@ -188,6 +189,7 @@ html {
     padding: 0.5rem 0.6rem;
     font-weight: 500;
     font-size: 12px;
+    margin: 0.2rem 0.2rem;
   }
   .btn-outline {
     border: 1px solid #d2f664;
@@ -199,6 +201,7 @@ html {
     width: 140px;
     font-weight: 500;
     padding: 0.5rem 0.6rem;
+    margin: 0.2rem 0.2rem;
   }
   .round-art {
     bottom: calc(-100vw + 120px);
