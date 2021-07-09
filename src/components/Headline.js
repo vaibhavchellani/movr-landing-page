@@ -1,8 +1,8 @@
 import Button from "./Button"
 export default function HeadLine() {
   return (
-    <div className="head-line center-child mt-48 md:mt-36" >
-        <div className=" head-line-section text-2xl md:text-6xl " >
+    <div className="overflow-hidden zerome absolute flex items-center justify-center  head-line center-child" >
+        <div className=" head-line-section text-2xl md:text-3xl lg:text-6xl " >
         A cross-L2 communication protocol for a multi-L2 future
         </div>
 
