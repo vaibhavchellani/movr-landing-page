@@ -114,6 +114,30 @@ export default function Home() {
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="language" content="English" />
         <meta name="revisit-after" content="1 days"></meta>
+        <title>Movr Network</title>
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://movr.network" />
+        <meta property="og:title" content="Movr Network" />
+        <meta
+          property="og:description"
+          content="Cross-L2 Interoperability Stack"
+        />
+        <meta
+          property="og:image"
+          content="https://movr-frontend.vercel.app/3.png"
+        />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://movr.network" />
+        <meta property="twitter:title" content="Movr Network" />
+        <meta
+          property="twitter:description"
+          content="Cross-L2 Interoperability Stack"
+        />
+        <meta
+          property="twitter:image"
+          content="https://movr-frontend.vercel.app/3.png"
+          />
       </Head>
       <TopBar />
       <HeadLine />
