@@ -100,10 +100,27 @@ export default function Home() {
           sizes="16x16"
           href="/favicon-16x16.png"
         />
-        <link rel="manifest" href="/manifest.json" />
-        <meta name="msapplication-TileColor" content="#ffffff" />
-        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
-        <meta name="theme-color" content="#ffffff"></meta>
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000" />
+        <meta name="msapplication-TileColor" content="#000000" />
+
         <meta name="title" content="Movr Network" />
         <meta name="description" content="Cross-L2 Interoperability Stack" />
         <meta
@@ -137,7 +154,7 @@ export default function Home() {
         <meta
           property="twitter:image"
           content="https://movr-frontend.vercel.app/3.png"
-          />
+        />
       </Head>
       <TopBar />
       <HeadLine />
