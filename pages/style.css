@@ -111,14 +111,10 @@ html {
 .footer-section-2 {
   /* font-family: Konnect; */
   display: flex;
-  gap: 3rem;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
+  gap: 1rem;
   line-height: 150%;
   margin-top: 2rem;
   /* identical to box height, or 24px */
-
   letter-spacing: 0.24em;
 }
 .footer-section-1 {
@@ -208,6 +204,9 @@ html {
 
     letter-spacing: 0.24em;
     color: #ffffff;
+  }
+  .footer-section-2 { 
+    font-size: 12px;
   }
   .head-line-section {
     max-width: 90%;
