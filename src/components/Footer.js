@@ -18,7 +18,7 @@ export default function Footer() {
         <div  onClick={()=> window.open('https://discord.com/invite/UFgG72rp42')} >DISCORD</div> 
       </div>
       <div className="footer-section-3 z-20 ">
-        Movr Network - © 2021 All Rights Reserved.
+        Socket - © 2021 All Rights Reserved.
       </div>
     </div>
   )
