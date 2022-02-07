@@ -133,8 +133,8 @@ export default function Home() {
         <meta name="revisit-after" content="1 days"></meta>
         <title>Movr Network</title>
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://movr.network" />
-        <meta property="og:title" content="Movr Network" />
+        <meta property="og:url" content="https://socket.tech" />
+        <meta property="og:title" content="Socket Tech" />
         <meta
           property="og:description"
           content="Cross-L2 Interoperability Stack"
@@ -145,8 +145,8 @@ export default function Home() {
         />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://movr.network" />
-        <meta property="twitter:title" content="Movr Network" />
+        <meta property="twitter:url" content="https://socket.tech" />
+        <meta property="twitter:title" content="Socket" />
         <meta
           property="twitter:description"
           content="Cross-L2 Interoperability Stack"

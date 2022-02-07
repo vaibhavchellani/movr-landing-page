@@ -13,7 +13,7 @@ export default function Footer() {
         <div   >STAY TUNED FOR MORE!</div> */}
       </div>
       <div className="footer-section-2 z-20 ">
-      <div  onClick={()=> window.open('https://docs.movr.network/')} >DOCS</div>|
+      <div  onClick={()=> window.open('https://docs.socket.tech/')} >DOCS</div>|
         <div  onClick={()=> window.open(' https://movrnetwork.notion.site/We-should-work-together-5cc360ba8df94399948c573a21833804')} >CAREERS</div>|
         <div  onClick={()=> window.open('https://discord.com/invite/UFgG72rp42')} >DISCORD</div> 
       </div>
