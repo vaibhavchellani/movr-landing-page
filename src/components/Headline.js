@@ -8,7 +8,7 @@ export default function HeadLine() {
 
         <div className="social-section mt-2 md:mt-4" >
             <Button  onClick={()=> window.open('https://socket.tech')} text="Visit Socket.tech" />
-            <Button onClick={()=> window.open('https://twitter.com/movrnetwork')} text="Follow us on Twitter" outline={true} />
+            <Button onClick={()=> window.open('https://twitter.com/socketdottech')} text="Follow us on Twitter" outline={true} />
         </div>
     </div>
   )
